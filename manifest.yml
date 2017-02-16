@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 5
+  domain: mybluemix.net
+  name: utemlim
+  host: utemlim
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-2n
+  - availability-monitoring-auto
